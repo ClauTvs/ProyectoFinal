@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../assets/images/logo-colores.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./../assets/css/style.css">
+    <title>IADA - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div id="titleLogo">
+            <img class="logo" src="./../assets/images/LogoColores.jpeg" alt="logo IADA">            
+            <h1>INSTITUTO ADVENTISTA DE AVELLANEDA</h1>        
+        </div>
+                <div>
+                    <div class="navbar">
+                        <nav class="navbar navbar-expand-lg bg-light">
+                            <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="./../index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                                        </li>                                        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Niveles Educativos
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="./NI.html">Nivel Inicial</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="./EP.html">Nivel Primario</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="./ES.html">Nivel Secundario</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="./contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h3>Formulario de contacto</h3>
+        <div class="row g-3">
+            <div class="col">
+                <label for="First name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="First name">
+            </div>
+
+            <div class="col">
+                <label for="Last name" class="form-label">Apellido</label>
+                <input type="text" class="form-control" placeholder="Ingrese su apellido" aria-label="Last name">
+            </div>
+        </div>
+
+        <form class="row g-3">
+            <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle / número">
+            </div>
+
+            <div class="col-md-6">
+                <label for="phone" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="phone" placeholder="1234567890">         
+            </div>
+            
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Ingrese su ciudad">
+            </div>
+
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Seleccione...</option>
+                    <option>Buenos Aires</option>
+                    <option>Córdoba</option>
+                    <option>Santa Fe</option>
+                    <option>Entre Ríos</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">CP</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="1234">
+            </div>
+
+            <div class="mb-3">
+                <label for="consultArea" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consultArea" placeholder="Dejanos tu consulta" rows="10"></textarea>
+            </div>
+            
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <div class="footerTitle">
+                <h2>MÁS QUE ENSEÑANZA</h2>
+            </div>
+            <div class="masInfo">
+                <div class="informacion">
+                    <h3>Encontranos</h3>                    
+                    <p>Av. Manuel Belgrano 820</p>
+                    <p>Avellaneda</p>                    
+                </div>
+                <div class="informacion">
+                    <h3>Llamanos</h3>
+                    <p>Nivel Inicial y Nivel Primario</p>
+                    <p>11-5749-2006</p>
+                    <p>Nivel Secundario</p>
+                    <p>11-7364-0239</p>
+                </div>
+                <div class="informacion">
+                    <h3>Escribinos</h3>
+                    <p>instituto.iada@educacionadventista.org.ar</p>
+                    <p>secretaria.secundario@gmail.com</p>  
+                    
+                </div>
+            </div>
+            <div class="imgRedes">
+                    <a class="linkRedes" href="#"><img src="./../assets/images/facebook.png" alt="Facebook"></a>
+                    <a class="linkRedes" href="#"><img src="./../assets/images/instagram.png" alt="Instagram"></a>
+                    <a class="linkRedes" href="#"><img src="./../assets/images/wtp-linea.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./../assets/javascript/bootstrap.bundle.js"></script>
+</body>
+
+</html>
