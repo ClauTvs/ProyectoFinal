@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
-@import "colores";
+@import "utilities/colores";
+@import "utilities/variables";
 
 
 * {
@@ -13,12 +14,11 @@
 }
 
 body {
-    background: $body-background-color;
-    color: rgb(255, 255, 255);
+    background: $bg-color;
+    color: $body-font;
     font-family: 'Poppins', sans-serif;
     margin: auto;
 }
-
 
 #titleLogo{
     background: linear-gradient(45deg, #BE93C5, #7BC6CC);
@@ -56,7 +56,7 @@ body {
 
     .logo{       
         border-radius: 50%;
-        width: 10vw;    
+        width: $ancho;    
     }
 }
 
@@ -70,13 +70,13 @@ body {
     
     .logo{       
         border-radius: 50%;
-        width: 8vw;    
+        width: $ancho -2;    
     }
 }
 
 .logo{       
     border-radius: 50%;
-    width: 10vw;    
+    width: $ancho;    
 }
 
 
@@ -96,7 +96,7 @@ body {
 }
 
 .active {
-    background-color: #1ec6e0;
+    background-color: $active-bg;
     border-radius: 5px;
 }
 
@@ -106,11 +106,11 @@ body {
 }
 
 .dropdown-menu {
-    background: #9DDCE6;
+    background:$dropdown-menu-bg;
 }
 
 .dropdown-item {
-    color: rgb(102, 102, 102);
+    color: $dropdown-item;
 }
 
 /* MAIN */ 
@@ -141,7 +141,7 @@ body {
     display: flex;
     align-items: center;
     padding: 3rem;
-    border: 7px solid #bd7fc7;
+    border: 7px solid $content-border;
     border-radius: 10px;
     margin: 2rem;
 }
@@ -151,7 +151,7 @@ body {
     border-radius: 5px;
     padding: 8px;
     margin: 4px;
-    box-shadow: 5px 5px 10px #541488,
+    box-shadow: 5px 5px 10px $box-shadow,
         -5px -5px 10px #7c31b9;
     transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
         transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
@@ -204,7 +204,7 @@ p {
 }
 
 .articleTitle2 {
-    background-color: rgba(80, 78, 78, 0.582);
+    background-color: $article-title;
     color: #f4f4f4;
     font-size: 2rem;
     padding: 0;
@@ -264,7 +264,7 @@ p {
 footer {
     width: 100%;
     height: 20%;
-    background-color: #0a141d;
+    background-color: $footer-bg;
     opacity: 55%;
     margin-top: 2vw;
 }
