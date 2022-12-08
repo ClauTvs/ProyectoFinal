@@ -178,12 +178,6 @@ p {
   min-width: auto;
   margin: auto; }
 
-.video {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-}  
-
 /* SECTION - TABLET */
 @media screen and (max-width: 991px) {
   .container-fluid {
